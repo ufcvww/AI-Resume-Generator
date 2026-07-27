@@ -4,5 +4,5 @@ pytesseract
 langchain_groq
 langchain_google_genai
 numpy
-lanchain_community
+langchain_community
 tavily
