@@ -32,7 +32,7 @@ TAVILY_API_KEY = st.sidebar.txt_input("TAVILY_API_KEY",type="password")
 #=========================MODEL BUILDING===========================
 model = ChatGoogleGenerativeAI(
     model = 'gemini-3.5-flash',
-    google_api_key = GOOGLE_API_KEY,
+    google_api_key = GOOGLE_API_KEY
 )
 #tool
 def search_recent_news_jobs(query):
