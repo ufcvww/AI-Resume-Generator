@@ -104,7 +104,7 @@ Always use different styling"""
 final_prompt = prompt + resume_maker_prompt()
 
 user_details = """user details : given below :
-My name is Abhigyan singh currently studying in 2nd year ip university
+My name is Ujjwal Raina currently studying in 2nd year ip university
 course - bca . very passionate about ai and software development had completed multiple value added courses
 and also done multiple certification code in the field of ai and software development participated in different high level
 hackathons and competition did my schooling from kamal model sr. sec. school 12th percentage is 76 percent my email is singhabhigyan922@gmail.com"""
