@@ -113,7 +113,7 @@ query = final_prompt+user_details
 
 import base64
 OPTIONS = ["Delhi","Noida","Gurgaon","kanpur","luknow","banglore","Pune"]
-Location = st.sidebar.multiselect('SELECT LOCATION: ',
+LOCATION = st.sidebar.multiselect('SELECT LOCATION: ',
                                     options = OPTIONS )
 
 JOB_PROFILE = ["PYTHON DEVELOPER",'GEN AI',
