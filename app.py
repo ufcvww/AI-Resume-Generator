@@ -33,7 +33,7 @@ if not (GOOGLE_API_KEY) and not (GROQ_API_KEY) and not (TAVILY_API_KEY):
     st.sidebar.warning("PASS API KEYS")
     st.stop()
 else:
-    st.sucess("API KEYS LOADED")
+    st.success("API KEYS LOADED")
 
 
 #========= MODEL BUILDING ===============
