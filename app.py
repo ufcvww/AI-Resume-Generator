@@ -112,7 +112,7 @@ user_details=f"""user details:given beow :resume info {USER_INFO} DEFAULT IF NOT
 query = final_prompt+user_details
 
 import base64
-Option = ["Delhi","Noida","Gurgaon","kanpur","luknow","banglore","Pune"]
+OPTIONS = ["Delhi","Noida","Gurgaon","kanpur","luknow","banglore","Pune"]
 Location = st.sidebar.multiselect('SELECT LOCATION: ',
                                     options = OPTIONS )
 
@@ -120,7 +120,7 @@ JOB_PROFILE = ["PYTHON DEVELOPER",'GEN AI',
                'FULL-STACK DEVELOPER','DATA ANALYST']
 
 PROFILE = st.sidebar.multiselect("SELECT JOB ROLE",
-                                  option = JOB_PROFILE)
+                                  options = JOB_PROFILE)
 job_prompt = f"""Based on {PROFILE} jobs in {LOCATION},
 want latest job news in using tavily,
 try top 10 search or whatever available
