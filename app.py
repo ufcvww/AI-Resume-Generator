@@ -105,7 +105,7 @@ uploaded_file = st.sidebar.file_uploader(
     "Choose an image file",
     type=["jpg", "jpeg", "png", "webp"]
 )
-if uploaded file is not None:
+if uploaded_file is not None:
     try:
         image = Image.open(uploaded_file)
     
